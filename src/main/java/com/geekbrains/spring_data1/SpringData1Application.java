@@ -3,6 +3,7 @@ package com.geekbrains.spring_data1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 /*Задание
 1. Создать сущность «Товар» (id, название, стоимость) и соответствующую таблицу в БД. Заполнить таблицу тестовыми данными (20 записей).
 2. Сделать RestController позволяющий выполнять следующий набор операции над этой сущностью:

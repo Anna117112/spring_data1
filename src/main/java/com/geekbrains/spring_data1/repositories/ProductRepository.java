@@ -1,6 +1,5 @@
 package com.geekbrains.spring_data1.repositories;
 
-
 import com.geekbrains.spring_data1.entites.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

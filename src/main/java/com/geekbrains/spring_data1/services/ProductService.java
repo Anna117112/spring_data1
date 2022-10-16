@@ -21,6 +21,7 @@ public class ProductService {
         return productRepository.findAll();
     }
 
+
 // список продуктов по id Optional - пишется если может быть ошибка что продуст не судествует
     public Optional<Product> findById(Long id) {
         return productRepository.findById(id);
