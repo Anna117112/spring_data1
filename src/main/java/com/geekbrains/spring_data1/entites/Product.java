@@ -13,14 +13,17 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long id;
-    @Column(name = "NAME")
+
+    @Column(name = "name")
     public String name;
+
     @Column(name = "cost")
-    public int cost;
+    public Integer cost;
 
     public long getId() {
         return id;
     }
+
 
     public void setId(long id) {
         this.id = id;
@@ -34,15 +37,15 @@ public class Product {
         this.name = name;
     }
 
-    public int getCost() {
+    public Integer getCost() {
         return cost;
     }
 
-    public void setCost(int cost) {
+    public void setCost(Integer cost) {
         this.cost = cost;
     }
 
-    public Product(int i, String name, byte a ){
+    public Product(int i, String name,Integer a ){
         this.id = i;
         this.name = name;
         this.cost = a;
